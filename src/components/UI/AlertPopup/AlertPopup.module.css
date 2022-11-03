@@ -1,0 +1,28 @@
+.alertPopupWrapper {
+  position: fixed;
+  margin-top: 4rem;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+}
+
+/* .hidePopup {
+  display: none;
+} */
+
+.popup {
+  width: 60%;
+  text-align: center;
+}
+
+.popupDisabled {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .popup {
+    width: 100%;
+    text-align: center;
+  }
+}

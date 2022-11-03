@@ -1,0 +1,30 @@
+.formWrapper {
+  padding: 1rem;
+  width: 50%;
+  margin: auto;
+}
+
+.formWrapper div {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.formWrapper div:first-child {
+  padding-top: 0;
+}
+
+.btnWrapper {
+  text-align: center;
+}
+
+.formWrapper button {
+  width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  .formWrapper {
+    padding: 1rem;
+    width: 100%;
+    margin: auto;
+  }
+}

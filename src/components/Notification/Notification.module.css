@@ -1,0 +1,13 @@
+.error {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+@media screen and (max-width: 768px) {
+  .error {
+    width: 95%;
+  }
+}

@@ -1,0 +1,16 @@
+.questionsList {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+.paginationWrapper {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.noneFound {
+  text-align: center;
+  margin-top: 3rem;
+}

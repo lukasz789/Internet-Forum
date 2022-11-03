@@ -1,0 +1,61 @@
+.formWrapper {
+  padding: 1rem 5rem;
+}
+
+.formWrapper div {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.block {
+  padding: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btnWrapper {
+  text-align: center;
+}
+
+.btnWrapper button {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.caption {
+  margin-top: 0;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottomText {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+.formToggler {
+  color: #0d6efd;
+  cursor: pointer;
+}
+
+.formToggler:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .formWrapper {
+    padding: 0.5rem 0.5rem;
+  }
+
+  .formWrapper div {
+    width: 100%;
+  }
+}

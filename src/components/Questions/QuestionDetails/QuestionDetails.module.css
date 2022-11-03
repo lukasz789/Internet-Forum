@@ -1,0 +1,64 @@
+.wrapper {
+  padding: 1rem 5rem;
+}
+
+.blockQuestion {
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.questionActions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.actionWrapper {
+  padding: 0 0.5rem;
+  width: 15%;
+}
+
+.postClosed {
+  margin: auto;
+  font-weight: bold;
+  font-size: 120%;
+  color: #842029;
+  letter-spacing: 3px;
+}
+
+h3,
+h4 {
+  font-size: 110%;
+}
+
+.unauthText {
+  font-weight: bold;
+}
+
+.authTextWrapper {
+  padding: 1rem;
+}
+
+.errorText {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 1rem 0.5rem;
+  }
+
+  .actionWrapper {
+    padding: 0 0.5rem;
+    width: 100%;
+  }
+
+  .questionActions {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  h3,
+  h4 {
+    font-size: 90%;
+  }
+}

@@ -1,0 +1,53 @@
+.delete {
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+  color: #842029;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.delete:hover {
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid red;
+}
+
+.edit {
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+  color: orange;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.edit:hover {
+  color: #fd7e14;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #fd7e14;
+}
+
+.close {
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+  color: green;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.close:hover {
+  color: #013220;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #013220;
+}

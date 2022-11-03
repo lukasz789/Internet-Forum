@@ -1,0 +1,45 @@
+.adderWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding: 0 5rem;
+}
+
+.adder {
+  padding: 0.1rem;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+
+.adder:hover {
+  background-color: #d1e7dd;
+  border: 1px solid #badbcc;
+  cursor: pointer;
+}
+
+.text {
+  font-size: 180%;
+  color: green;
+  font-weight: bold;
+  margin-left: 0.2rem;
+}
+
+.unauthText {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .adderWrapper {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 0 1rem;
+  }
+
+  .text {
+    font-size: 150%;
+    color: green;
+    font-weight: bold;
+    margin-left: 0rem;
+  }
+}

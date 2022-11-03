@@ -1,0 +1,47 @@
+.formWrapper {
+  padding: 1rem 5rem;
+}
+
+.formWrapper div {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.form {
+  padding: 0 3rem;
+}
+
+.caption {
+  margin-top: 0;
+  font-size: 180%;
+}
+
+.titleWrapper {
+  width: 33%;
+}
+
+.btnWrapper {
+  text-align: center;
+}
+
+.btnWrapper button {
+  width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  .formWrapper {
+    padding: 1rem 0.5rem;
+  }
+
+  .form {
+    padding: 0;
+  }
+
+  .titleWrapper {
+    width: 100%;
+  }
+
+  .btnWrapper button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,29 @@
+.wrapper {
+  padding: 1.5rem;
+}
+
+.caption {
+  margin-bottom: 1.5rem;
+  font-size: 180%;
+}
+
+.btnWrapper {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.btnWrapper button {
+  width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 0rem;
+    padding-top: 1rem;
+  }
+
+  .btnWrapper button {
+    width: 90%;
+  }
+}
