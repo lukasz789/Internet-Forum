@@ -233,20 +233,23 @@ const QuestionDetails = (props) => {
             )}
           </div>
         </Block>
-        {username ? (
-          <AddNewComment
-            isLoading={queryState.isLoading}
-            postId={postId}
-            triggerRefetch={triggerRefetch}
-          />
-        ) : (
-          <div className={classes.authTextWrapper}>
-            <span className={classes.unauthText}>
-              To add a comment You have to{' '}
-              <Link to='/authenticate'>LOGIN/REGISTER</Link> first
-            </span>
-          </div>
-        )}
+        {questionDetails.isPostOpened ? (
+          username ? (
+            <AddNewComment
+              isLoading={queryState.isLoading}
+              postId={postId}
+              triggerRefetch={triggerRefetch}
+            />
+          ) : (
+            <div className={classes.authTextWrapper}>
+              <span className={classes.unauthText}>
+                To add a comment You have to{' '}
+                <Link to='/authenticate'>LOGIN/REGISTER</Link> first
+              </span>
+            </div>
+          )
+        ) : null}
+
         <AllComments
           postId={postId}
           comments={comments}
